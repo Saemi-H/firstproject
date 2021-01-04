@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Index Page</title>
+    <link rel="stylesheet" type="text/css" href="../css/productpage.css">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+   <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+  <!--jQuery 소스삽입  cdnjs 플러그인 사용 -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+  <!--jQuery-ui 소스삽입 (aniamtion 기능, 다양한 ui component)  cdnjs 플러그인 사용 -->
+  <script src="../jquery/productpage.js"></script>
+</head>
+
+
+
+<body>
+   <ul id="skip_menu">
+       <li><a href="#" title="header">header</a></li>
+       <li><a href="#" title="visual">visual</a></li>
+       <li><a href="#" title="content">content</a></li>
+       <li><a href="#" title="footer">footer</a></li>
+   </ul>
+   <!--skipmenu-->
+   <header id="header_wrap">
+       <div id="htop_wrap">
+           <div id="htop_inner" class="clearfix">
+               <ul id="htop_menu" class="clearfix">
+                   <li><div class="tmenu"><a href="#" title="로그인">로그인</a></div></li>
+                   <li><div class="tmenu"><a href="#" title="회원가입">회원가입</a></div></li>
+                   <li class="mypage_list">
+                       <div class="tmenu"><a href="#" title="마이페이지">마이페이지</a></div>
+                       <div class="mypage_menu">
+                           <ul>
+                               <li><a href="#" title="구매확인/취소">구매확인/취소</a></li>
+                               <li><a href="#" title="구매확인/취소">폰비교하기</a></li>
+                               <li><a href="#" title="구매확인/취소">장바구니</a></li>
+                               <li><a href="#" title="구매확인/취소">개인정보</a></li>
+                           </ul>
+                       </div>
+                   </li>
+                   <li class="search"><a href="#" title="search"><img src="../icon/search.png"></a></li>
+               </ul>
+                <div id="mypage_bg"></div><!--mypage-->
+           </div><!--htop_inner-->
+       </div><!--htop_wrap-->
+       <div id="hbottom_wrap">
+           <div id="hbottom_inner">
+               <nav id="gnb">
+                   <ul id="gnb_list">
+                       <li>
+                           <div class="gnb_title"><a href="#" title="회사소개">회사소개</a></div>
+                           <div class="submenu">
+                    <ul class="submenu_list">
+                        <li><a href="#" title="회사소개">회사소개</a></li>
+                        <li><a href="#" title="공지사항">공지사항</a></li>
+                    </ul>
+                           </div><!--submenu-->
+
+                       </li>
+                       <li>
+                           <div class="gnb_title"><a href="submiddle.html" title="모바일">모바일</a></div>
+                           <div class="submenu">
+                                  <ul class="submenu_list">
+                                   <li><a href="#" title="신상품">신상품</a></li>
+                                   <li><a href="#" title="삼성">삼성</a></li>
+                                    <li><a href="#" title="애플">애플</a></li>
+                                   <li><a href="#" title="엘지">엘지</a></li>
+                                   <li><a href="#" title="샤오미">샤오미</a></li>
+                                   <li><a href="#" title="노키아">노키아</a></li>
+                                    <li><a href="#" title="소니">소니</a></li>
+                               </ul>
+                           </div><!--submenu-->
+
+                       </li>
+                       <li>
+                           <div class="gnb_title"><a href="#" title="액세서리">액세서리</a></div>
+                           <div class="submenu">
+                                 <ul class="submenu_list">
+                                   <li><a href="#" title="스마트와치">스마트와치</a></li>
+                                   <li><a href="#" title="폰케이스">폰케이스</a></li>
+                                    <li><a href="#" title="무선이어폰">무선이어폰</a></li>
+                                   <li><a href="#" title="더보기">더보기</a></li>
+                               </ul>
+                           </div><!--submenu-->
+
+
+                       </li>
+                       <li>
+                           <div class="gnb_title"><a href="#" title="이벤트">이벤트</a></div>
+                           <div class="submenu">
+                               <ul class="submenu_list">
+                                   <li><a href="#" title="진행중">진행중</a></li>
+                                   <li><a href="#" title="지난이벤트">지난이벤트</a></li>
+                                    <li><a href="#" title="당첨자발표">당첨자발표</a></li>
+                               </ul>
+                           </div><!--submenu-->
+
+                       </li>
+                       <li>
+                           <div class="gnb_title"><a href="#" title="고객지원">고객지원</a></div>
+                           <div class="submenu">
+                               <ul class="submenu_list">
+                                   <li><a href="#" title="FAQ">FAQ</a></li>
+                                   <li><a href="#" title="이메일상담">이메일상담</a></li>
+                                    <li><a href="#" title="메신저상담">메신저상담</a></li>
+                                     <li><a href="#" title="서비스센터찾기">서비스센터찾기</a></li>
+                                    <li><a href="#" title="멤버스커뮤니티">멤버스커뮤니티</a></li>
+                               </ul>  
+                           </div><!--submenu-->
+
+                       </li>
+                       <li><div class="gnb_title"><a href="#" title="사전예약">사전예약</a></div></li>
+                       <li><div class="gnb_title"><a class="trending_now" href="#" title="트랜딩나우">Trending Now</a></div></li>
+                   </ul><!--gnb_list-->
+
+               </nav>
+              
+               </div><!--hbottom_inner-->
+                 </div><!--hbottom_wrap-->
+                
+                 <div id="nav_bg"></div><!--nav_bg-->
+                  <div id="sub_bg"></div><!--sub_bg-->
+
+   </header>
+   <div id="content_wrap">
+   <div id="buy_product" class="clearfix">
+       <div id="item_pic">
+           <ul class="clearfix">
+               <li class="main">
+                <img src="../images/galaxycollection/images/A20smain_17.png" alt="full phone">
+               </li>
+               <li><a href="#" title="back" onclick=" return false;">
+                   <img src="../images/galaxycollection/images/phone_w_17.png" alt="back">
+               </a></li>
+               <li><a href="#" title="left" onclick=" return false;">
+                   <img src="../images/galaxycollection/images/S205Gleft_17.png" alt="left">
+               </a></li>
+               <li><a href="#" title="full" onclick=" return false;">
+                <img src="../images/galaxycollection/images/A20smain_17.png" alt="full phone">
+               </a></li>
+           </ul>
+       </div><!--item_pic-->
+       <div id="buy_option">
+           <h2>SM-N986NG<br>
+            갤럭시노트20 Ultra 5G
+            </h2>
+            <div id="top_option">
+                <ul class="clearfix">
+                    <li class="clearfix"><p class="option_title">출고가</p><p class="option_inner">1,423,000원</p></li>
+                    <li class="clearfix"><p class="option_title">색상</p>
+                        <ul id="color_select" class="clearfix">
+                            <li class="color1"><a href="#" title="빨강" onclick="return false;"></a></li>
+                            <li class="color2"><a href="#" title="파랑" onclick="return false;"></a></li>
+                            <li class="color3"><a href="#" title="회색 " onclick="return false;"></a></li>
+                        </ul>
+                        <p class="option_inner" id="color_name"></p></li>
+                    <li class="clearfix"><p class="option_title">용량</p>
+                    <select name="storage" id="storage" class="option_inner" style="width:430px; height:40px;">
+                        <option value = "64GB">64GB</option>
+                        <option value = "128GB">128GB</option>
+                    </select>
+                    </li>
+                    <li class="clearfix"><p class="option_title">개수</p>
+                    <select name="quantity" id="quantity" class="option_inner" style="width:430px; height:40px;">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    </li>
+                    <li class="clearfix"><p class="option_title">배송옵션</p>
+                    <ul id="delivery_option" class="option_inner option_box clearfix">
+                        <li><a href="#" title="package">택배</a></li>
+                        <li><a href="#" title="pick up">바로픽업</a></li>
+                        <li><a href="#" title="quick">퀵</a></li>
+                    </ul>
+                    </li>
+                </ul>
+            </div><!--top_option-->
+            <div id="mid_option">
+                <ul>
+                    <li class="clearfix"><p class="option_title">통신사</p>
+                        <ul id="carrier" class="option_inner option_box clearfix">
+                            <li><a href="#" title="package">SKT</a></li>
+                            <li><a href="#" title="pick up">KT</a></li>
+                            <li><a href="#" title="quick">LG U+</a></li>
+                        </ul>
+                    </li>
+                    <li class="clearfix"><p class="option_title">가입유형</p>
+                        <ul id="join_type" class="option_inner option_box clearfix">
+                            <li><a href="#" title="package">기기변동</a></li>
+                            <li><a href="#" title="pick up">번호이동</a></li>
+                            <li><a href="#" title="quick">신규가입</a></li>
+                        </ul>
+                    </li>
+                    <li class="clearfix"><p class="option_title">할부기간</p>
+                        <ul class="period option_inner clearfix" id="monthly_period">
+                            <li>
+                                <button title="12개월" value="50,000">12개월</button>
+                            </li>
+                            <li>
+                                <button title="24개월" value="100,000">24개월</button>
+                            </li>
+                            <li>
+                                <button title="36개월" value="150,000">36개월</button>
+                            </li>
+                            <li>
+                                <button title="일시불" value="0">일시불</button>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!--mid_option-->
+            <div id="last_option" class="clearfix">
+                <p class="option_title">요금할인</p>
+                        <ul class="dc option_inner clearfix" id="dc_option">
+                            <li>
+                            <button title="12개월" value ="534,600">12개월<br>기기할인</button>
+                            </li>
+                            <li>
+                                <button title="24개월" value="100,000">24개월<br>기기할인</button>
+                            </li>
+                            <li>
+                                <button title="36개월" value="150,000">36개월<br>요금할인</button></li>
+                            <li>
+                                <button title="무약정" value="30,000">무약정<br>플랜</button></li>
+                        </ul>
+                <div class="dc_cal">
+                    <p><span>12개월</span> 간 총 요금의 25% 할인</p>
+                    <span>총</span><div class="dc_result">
+                        <input type="text" class="cal_input" value="0">
+                    원</div>
+                </div><!--dc_cal-->
+            </div><!--last_option-->
+            <div id="check_out">
+                <div class="cart_btn"><a href="#" title="add cart">장바구니</a></div>
+                <div class="compare_btn"><a href="#" title="compare">비교하기</a></div>
+                <div class="buy_btn"><a href="#" title="buy">바로구매하기</a></div>
+            </div><!--check_out-->
+       </div><!--buy_option-->
+   </div><!--buy_product-->
+   <div id="other_item">
+       <h3>고객들이 본 다른 제품</h3>
+       <div id="oi_pics" class="clearfix">
+           <ul class="oi_column01 clearfix">
+                <li class="new_item accessory_01"><a href="#" title="new item01"><img src="../images/accessory/batterypack_03.png" alt="Samsung Battery Pack"><div class="cover"><h3>갤럭시 노트20 Ultra 5G 스마트 LED 뷰 커버(항균 코팅)</h3></div></a></li>
+               <li class="new_item accessory_02"><a href="#" title="new item01"><img src="../images/accessory/galaxywatch_04.png" alt="Galaxy Watch 20" style="width:50%"><div class="cover"><h3>갤럭시 워치3 41 mm (블루투스)</h3></div></a></li>
+               <li class="new_item accessory_03"><a href="#" title="new item01"><img src="../images/accessory/fit_03.png" alt="Galaxy Fit"><div class="cover"><h3>갤럭시 핏2</h3></div></a></li>
+               <li class="new_item featured_03"><a href="#" title="new item01"><img src="../images/LG/images/velvetmain_green_05.png" alt="LG Velvet"><div class="cover"><h3>LG</h3></div></a></li>
+               </ul>
+               <ul class="oi_column02 clearfix">
+                   <li class="new_item featured_02"><a href="#" title="new item01"><img src="../images/iphone/images/11main_green_06.png" alt="Iphone11"><div class="cover"><h3>APPLE</h3></div></a></li>
+                   <li class="new_item featured_01"><a href="#" title="new item01"><img src="../images/galaxycollection/images/A20smain_red_06.png" alt="Galaxy A20"><div class="cover"><h3>SAMSUNG</h3></div></a></li>
+               <li><a href="#" title="item"></a></li>
+               <li><a href="#" title="item"></a></li>
+               </ul>
+               <ul class="oi_column03 clearfix">
+                   <li class="new_item featured_02"><a href="#" title="new item01"><img src="../images/iphone/images/11main_green_06.png" alt="Iphone11"><div class="cover"><h3>APPLE</h3></div></a></li>
+                   <li class="new_item featured_01"><a href="#" title="new item01"><img src="../images/galaxycollection/images/A20smain_red_06.png" alt="Galaxy A20"><div class="cover"><h3>SAMSUNG</h3></div></a></li>
+                   <li class="new_item accessory_01"><a href="#" title="new item01"><img src="../images/accessory/batterypack_03.png" alt="Samsung Battery Pack"><div class="cover"><h3>갤럭시 노트20 Ultra 5G 스마트 LED 뷰 커버(항균 코팅)</h3></div></a></li>
+                   <li class="new_item accessory_03"><a href="#" title="new item01"><img src="../images/accessory/fit_03.png" alt="Galaxy Fit"><div class="cover"><h3>갤럭시 핏2</h3></div></a></li>
+               </ul>
+       </div><!--oi pics-->
+       <div id="oi_btn">
+          <div class="prev_btn"><a href="#" title="prev" onclick="otherItem(this);return false;">
+               <img src="../icon/morearrow.png" title="이전 리스트">
+           </a></div>
+           <div class="next_btn"><a href="#" title="next" onclick="otherItem(this);return false;">
+               <img src="../icon/morearrow.png" title="다음 리스트">
+           </a></div>
+           
+       </div>
+   </div><!--other_item-->
+   <div id="item_detail">
+       <div id="detail_menu">
+           <ul class="clearfix">
+               <li><a href="#" title="menu" onclick="onMenuClick('1')">제품상세</a></li>
+               <li><a href="#" title="menu" onclick="onMenuClick('2')">상품평</a></li>
+               <li><a href="#" title="menu" onclick="onMenuClick('3')">상품문의</a></li>
+               <li><a href="#" title="menu" onclick="onMenuClick('4')">배송정보</a></li>
+           </ul>
+       </div><!--detail_menu-->
+       <table id="detail" class="m01">
+           <caption>필수표기정보</caption>
+           <tr>
+               <th>품명 및 모델명</th><td>상세 페이지 참고</td>
+               <th>인증사항</th><td>상세 페이지 참고</td>
+           </tr>
+           <tr>
+            <th>제조국(생산국)</th><td>상세 페이지 참고</td>
+            <th>제조자(수입자)</th><td>상세 페이지 참고</td>
+        </tr>
+        <tr>
+            <th>소비자 상담 관련<br>전화번호</th><td>상세 페이지 참고</td>
+        </tr>
+       </table>
+   </div><!--item_detail-->
+</div><!--content_wrap-->
+<div id="item_detail_wrap">
+    <div id="item_detail_inner">
+        <div id="item_detail_pic"><img src ="../images/productdetail.png" alt="item"></div>
+        <div id="fold_btn" class="view_detail_btn"><a href="#" title="view_detail_btn">상품 정보 접기</a></div>
+    </div><!--item_inner-->
+    <div id="detail_btn" class="view_detail_btn"><a href="#" title="view_detail_btn">상품 정보 더보기</a></div>
+</div><!--item_wrap-->
+<div id="content_bottom">
+    <div id="comment" class="m02">
+        <h3>상품평</h3>
+        <div class="comment_count"><span>1</span><span>/3</span></div>
+        <div id="comment_inner">
+         <div class="comment_next_btn">
+            <a href="#" title="next button">
+                <img src="../icon/slidearrow.png" title="arrow">
+            </a>
+        </div>
+        <div id="comment_list">
+        <div id="comment_pics" class="clearfix">
+            <ul class="clearfix">
+                <li>
+                    <a href="#" title="comment picture">
+                        <img src="../images/comment/images/comment_03.png" alt="comment">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="comment picture">
+                        <img src="../images/comment/images/comment_06.png" alt="comment">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="comment picture">
+                        <img src="../images/comment/images/comment_11.png" alt="comment">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="comment picture">
+                        <img src="../images/comment/images/comment_13.png" alt="comment">
+                    </a>
+                </li>
+            </ul>
+            <ul class="clearfix">
+                <li>
+                    <a href="#" title="comment picture">
+                        <img src="../images/comment/images/comment_03.png" alt="comment">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="comment picture">
+                        <img src="../images/comment/images/comment_06.png" alt="comment">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="comment picture">
+                        <img src="../images/comment/images/comment_11.png" alt="comment">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="comment picture">
+                        <img src="../images/comment/images/comment_13.png" alt="comment">
+                    </a>
+                </li>
+            </ul>
+            <ul class="clearfix">
+                <li>
+                    <a href="#" title="comment picture">
+                        <img src="../images/comment/images/comment_03.png" alt="comment">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="comment picture">
+                        <img src="../images/comment/images/comment_06.png" alt="comment">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="comment picture">
+                        <img src="../images/comment/images/comment_11.png" alt="comment">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="comment picture">
+                        <img src="../images/comment/images/comment_13.png" alt="comment">
+                    </a>
+                </li>
+            </ul>
+        </div><!--comment_pic-->
+        </div><!--comment_list-->
+        </div><!--comment_inner-->
+        <div class="comment_select">
+            <span><a href="#" title="popular">인기순</a></span> / <span><a href="#" title="popular">최신순</a></span>
+        </div><!--comment_select-->
+        <table class="comment_table">
+            <caption>상품평</caption>
+           <tr>
+               <th>작성자</th><th>2020.10.30</th>
+           </tr>
+           <tr class="comment_cont">
+            <td class="comment_tit">
+                <a href="#" title="comment title">고급스러운 휴대폰</a></td>
+            <td>
+                1명에게 도움됨
+                <div class="report_btn"><a href="#" title="report button">신고하기</a></div>
+             </td>
+           </tr>
+           <tr>
+            <th>작성자</th><th>2020.10.30</th>
+        </tr>
+        <tr class="comment_cont">
+         <td class="comment_tit">
+             <a href="#" title="comment title">고급스러운 휴대폰</a></td>
+         <td>
+             1명에게 도움됨
+             <div class="report_btn"><a href="#" title="report button">신고하기</a></div>
+          </td>
+        </tr>
+        <tr>
+            <th>작성자</th><th>2020.10.30</th>
+        </tr>
+        <tr class="comment_cont">
+         <td class="comment_tit">
+             <a href="#" title="comment title">고급스러운 휴대폰</a></td>
+         <td>
+             1명에게 도움됨
+             <div class="report_btn"><a href="#" title="report button">신고하기</a></div>
+          </td>
+        </tr>
+        <tr>
+            <th>작성자</th><th>2020.10.30</th>
+        </tr>
+        <tr class="comment_cont">
+         <td class="comment_tit">
+             <a href="#" title="comment title">고급스러운 휴대폰</a></td>
+         <td>
+             1명에게 도움됨
+             <div class="report_btn"><a href="#" title="report button">신고하기</a></div>
+          </td>
+        </tr>
+        <tr>
+            <th>작성자</th><th>2020.10.30</th>
+        </tr>
+        <tr class="comment_cont">
+         <td class="comment_tit">
+             <a href="#" title="comment title">고급스러운 휴대폰</a></td>
+         <td>
+             1명에게 도움됨
+             <div class="report_btn"><a href="#" title="report button">신고하기</a></div>
+          </td>
+        </tr>
+        </table>
+        <div class="page_num">
+            <ul class="clearfix">
+                <li>
+                    <a href="#" title="prev_btn">
+                        <img src="../icon/morearrow.png" alt="prev icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="1">1</a>
+                </li>
+                <li>
+                    <a href="#" title="2">2</a>
+                </li>
+                <li>
+                    <a href="#" title="3">3</a>
+                </li>
+                <li>
+                    <a href="#" title="4">4</a>
+                </li>
+                <li>
+                    <a href="#" title="5">5</a>
+                </li>
+                <li>
+                    <a href="#" title="6">6</a>
+                </li>
+                <li>
+                    <a href="#" title="7">7</a>
+                </li>
+                <li>
+                    <a href="#" title="8">8</a>
+                </li>
+                <li>
+                    <a href="#" title="9">9</a>
+                </li>
+                <li>
+                    <a href="#" title="next_btn">
+                        <img class="next_btn" src="../icon/morearrow.png" alt="next icon">
+                    </a>
+                </li>
+            </ul>
+        </div><!--page_num-->
+    </div><!--comment-->
+    <div id="question" class="m03">
+        <h3>상품문의</h3>
+
+        <table class="comment_table" id="question_table">
+            <caption>상품문의</caption>
+           <tr>
+               <th>작성자</th><th>2020.10.30</th>
+           </tr>
+           <tr class="comment_cont">
+            <td class="comment_tit">
+                <a href="#" title="comment title">문의사항</a></td>
+            <td>
+                
+                <div class="report_btn"><a href="#" title="report button">신고하기</a></div>
+             </td>
+           </tr>
+           <tr>
+            <th class="manager">담당자</th><th>2020.10.30</th>
+        </tr>
+        <tr class="comment_cont">
+         <td class="comment_tit">
+             <a href="#" title="comment title">답변</a></td>
+         <td>
+             
+             <div class="report_btn"><a href="#" title="report button">신고하기</a></div>
+          </td>
+        </tr>
+        <tr>
+            <th>작성자</th><th>2020.10.30</th>
+        </tr>
+        <tr class="comment_cont">
+         <td class="comment_tit">
+             <a href="#" title="comment title">문의사항</a></td>
+         <td>
+             
+             <div class="report_btn"><a href="#" title="report button">신고하기</a></div>
+          </td>
+        </tr>
+        <tr>
+            <th class="manager">담당자</th><th>2020.10.30</th>
+        </tr>
+        <tr class="comment_cont">
+         <td class="comment_tit">
+             <a href="#" title="comment title">답변</a></td>
+         <td>
+             
+             <div class="report_btn"><a href="#" title="report button">신고하기</a></div>
+          </td>
+        </tr>
+        <tr>
+            <th>작성자</th><th>2020.10.30</th>
+        </tr>
+        <tr class="comment_cont">
+         <td class="comment_tit">
+             <a href="#" title="comment title">문의사항 </a></td>
+         <td>
+             
+             <div class="report_btn"><a href="#" title="report button">신고하기</a></div>
+          </td>
+        </tr>
+        <tr class="comment_cont" id="question_txt">
+         <td>
+            <ul>
+                <li>구매한 상품의 취소/반품은 마이페이지에서 확인 가능합니다.</li>
+                <li>상품문의 및 후기 게시판을 통해 취소나 반품, 환불은 처리되지 않습니다.</li>
+                <li>가격, 판매자, 교환/환불 및 배송 등 해당 상품 자체와 관련 없는 문의는 1:1 문의하기를 이용해주세요.</li>
+                <li>"해당 상품 자체"와 관련 없는 글, 양도, 광고성, 욕설, 비방, 도배 등의 글은 예고 없이 이동, 노출제한, 삭제 등의 조취가 취해 질 수 있습니다.</li>
+                <li>공개 게시판이므로 전화번호, 메일 주소 등 고객님의 소중한 개인정보는 절대 남기지 말아주세요.</li>
+            </ul>
+        </td>
+        <td id ="qeustion_btn" style="padding-top: 20px;"> 
+             <div class="report_btn" ><a href="#" title="report button">문의하기</a></div>
+          </td>
+        </tr>
+       
+        </table>
+        <div class="page_num">
+            <ul class="clearfix">
+                <li>
+                    <a href="#" title="prev_btn">
+                        <img src="../icon/morearrow.png" alt="prev icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="1">1</a>
+                </li>
+                <li>
+                    <a href="#" title="2">2</a>
+                </li>
+                <li>
+                    <a href="#" title="3">3</a>
+                </li>
+                <li>
+                    <a href="#" title="4">4</a>
+                </li>
+                <li>
+                    <a href="#" title="5">5</a>
+                </li>
+                <li>
+                    <a href="#" title="6">6</a>
+                </li>
+                <li>
+                    <a href="#" title="7">7</a>
+                </li>
+                <li>
+                    <a href="#" title="8">8</a>
+                </li>
+                <li>
+                    <a href="#" title="9">9</a>
+                </li>
+                <li>
+                    <a href="#" title="next_btn">
+                        <img class="next_btn" src="../icon/morearrow.png" alt="next icon">
+                    </a>
+                </li>
+            </ul>
+        </div><!--page_num-->
+    </div><!--question-->
+    <div id="delivery" class="m04">
+        <h3>배송정보</h3>
+        <table id="delivery_info">
+            <caption>delivery</caption>
+            <tr>
+                <th>
+                    배송방법
+                </th>
+                <td>순차배송</td>
+            </tr>
+            <tr>
+                <th>
+                    묶음 배송 여부
+                </th>
+                <td>가능</td>
+            </tr>
+            <tr>
+                <th>
+                    배송기간
+                </th>
+                <td>
+                    도서산간 지역은 배송일에 3-5일 더 소효될 수 있습니다.
+                    <p>- 천재지변, 물량 수급 변등 등 예외적 사유 발생시, 다소 지연될 수 있는 점 양해부탁드립니다.</p>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    배송비
+                </th>
+                <td>
+                    무료배송
+                    <p>- 도서산간 지역의 경우, 추가비용 발생 가능</p>
+                </td>
+            </tr>
+        </table>
+    </div><!--delivery-->
+    <div id="exchange">
+        <h3>교환/반품 안내</h3>
+        <table id="exchange_info">
+            <caption>delivery</caption>
+            <tr>
+                <th>
+                    교환/반품 비용
+                </th>
+                <td>5,000원<br>
+                    <p>-단 고객 변심의 경우에만 발생</p>
+                    <p>-도서산간 및 일부 지역 추가 비용 발생</p>
+                    <p>-부분반품 시, 남은 금액이 무료배송 요건을 유지하면 편도 비용만 부과</p>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    교환/환불 신청
+                </th>
+                <td>
+                    <ul>
+                        <li>단순변심에 의한 교환/반품은 제품 수령 후 7일 이내까지만 가능(배송비용과 교환/반품비용 왕복배송비 고객부담)</li>
+                        <li>상품의 내용이 표시, 광고의 내용과 다른 경우에는 상품을 수령한 날부터 3개월 이내, 그 사실을 안 날 또는 알 수 있었던 날부터 30일 이내에 청약 철회 가능</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div><!--exchange-->
+    <div id="limit">
+        <h3>교환/반품 제한사항</h3>
+        <table id="limit_info">
+            <caption>limit</caption>
+            <tr>
+                <td>
+                    <ul>
+                        <li>주문/제작 상품의 경우, 상품의 제작이 이미 진행 된 경우</li>
+                        <li> 상품 포장을 개봉하여 사용 또는 설치 완료외어 상품의 가치가 훼손된 경우(단, 내용 확인을 위한 포장 개봉의 경우 제외)</li>
+                        <li>고객의 사용, 시간 경과, 일부 소비에 의하여 상품의 가치가 현전히 감소한 경우</li>
+                        <li> 세트 상품 일부 사용, 구성품을 분실하였거나 취급 부주의로 인한 파손/고장/오염으로 재판매가 불가한 경우</li>
+                        <li>모니터 해상도의 차이로인해 색상이나 이미지가 실제와 달라 고객이 단순 변심으로 교환/반품을 무료로 요청하는 경우</li>
+                        <li>제조사의 사정(신모델 출시 등) 및 부품 가격 변등 등에 의 해 무료 교환/반품으로 요청하는 경우</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div><!--exchange-->
+    <div id="cal_bar">
+        <div id="cal_bar_inner">
+            <div class="element">
+                <h3>휴대폰 월 할부금</h3>
+                <div class="cal_num" id="monthly">
+                    <input type="text" class="mon_input" value="0">
+                </div><!--cal_num-->
+                원
+            </div><!--element-->
+            +
+            <div class="element">
+                <h3>월 통신요금</h3>
+                <div class="cal_num" id="expected">
+                    <input type="text" class="cal_input" value ="0"> 
+                </div><!--cal_num-->
+                원
+            </div><!--element-->
+            =
+            <div class="element">
+                <h3>예상 월 납부액</h3>
+                <div class="cal_result">
+                    <input type="text" class="total_input" value="0">
+                </div><!--cal_num-->
+                (할부수수료 5.9% 포함)
+            </div><!--element-->
+            <div class="cart_btn cal_btn"><a href="#" title="add cart">장바구니</a></div>
+            <div class="cart_btn cal_btn out_btn"><a href="#" title="add cart">구매하기</a></div>
+        </div><!--carl_bar_inner-->
+    </div><!--cal_bar-->
+</div><!--content_bottom-->
+        <aside id="menu_aside">
+            <div id="item_seen">최근 본 상품</div><!--item_seen-->
+            <ul>
+                <li>
+                <div class="aside_item"><a href="#" title="item01"></a></div>
+                <p>상품명</p>
+                </li>
+                <li>
+                <div class="aside_item"><a href="#" title="item01"></a></div>
+                <p>상품명</p>
+                </li>
+            </ul>
+            <div class="top_btn"><a href="#" title="top_btn" onclick="toTop()";><p>TOP</p></a></div>
+        </aside><!--menu_alise-->  
+
+
+         
+        <footer id="footer_wrap">
+            <div id="ftop_wrap">
+               <div id="ftop_inner" class="clearfix">
+                <div id="ftop_left">
+                   <ul id="footer_menu" class="clearfix">
+                       <li>
+                           <p><a href="#" title="footer_menu_title">ABOUT US</a></p>
+                           <ul class="footer_submenu">
+                               <li><a href="#" title="about us">ABOUT US</a></li>
+                                <li><a href="#" title="about us">공지사항</a></li>
+                           </ul>
+                       </li>
+                        <li>
+                           <p><a href="#" title="footer_menu_title">고객센터</a></p>
+                            <ul class="footer_submenu">
+                                <li><a href="#" title="about us">배송정책</a></li>
+                                 <li><a href="#" title="about us">멤버쉽 혜택/서비스</a></li>
+                                  <li><a href="#" title="about us">1:1 채팅문의</a></li>
+                                   <li><a href="#" title="about us">1:1 이메일문의</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer_submenu"><p><a href="#" title="footer_menu_title">매장안내</a></p></li>
+                   </ul>
+                </div><!--ftop_left-->
+                <div id="ftop_right" class="clearfix">
+                    <p class="cs">CUSTOMER SERVICE<br>
+                    000-0000-0000
+                    </p>
+                    <p class="store_hours">
+                       매장영업시간 10:00-19:00 
+                    </p>
+                    <p class="item_hours">
+                       제품관련문의 09:30-17:30 
+                    </p>
+                    <p class="as_hours">
+                       배송A/S문의 09:30-17:30 
+                    </p>
+                    <div class="sns">
+                        <ul class="clearfix">
+                            <li><a href="#" title="insta"></a></li>
+                            <li><a href="#" title="fb"></a></li>
+                            <li><a href="#" title="twitter"></a></li>
+                            <li><a href="#" title="youtube"></a></li>
+                        </ul>
+                    </div>
+                </div><!--ftop_right-->
+                </div><!--ftop_inner-->
+            </div><!--ftop_wrap-->
+            <div id="fbottom_wrap">
+               <div id="fbottom_inner">
+                <ul id="fbottom_top" class="clearfix">
+                    <li>개인정보 처리방침</li>
+                    <li>웹 사이트 이용 약관</li>
+                    <li>판매 및 환불</li>
+                    <li>법적 고지</li>
+                    <li>사이트 맵</li>
+                </ul><!--fbottom_top-->
+                <ul id="fbottom_02" class="clearfix">
+                    <li>사업자등록번호:000-00-12345</li>
+                    <li>통신판매입신고번호:제 2011-강남-000000호</li>
+                </ul><!--fbottom_02-->
+                <ul id="address" class="clearfix">
+                    <li>주소:서울 특별시 강남구 영동대로</li>
+                    <li>대표전화:02-1234-5678</li>
+                    <li>팩스:02-1234-5678</li>
+                    
+                </ul><!--address-->
+                <span class="copy">Copyright©2020 Mobile Inc.</span>
+                </div><!--fbottom_inner-->
+            </div><!--fbottom_wrap-->
+        </footer>
+     
+    
+</body>
+</html>

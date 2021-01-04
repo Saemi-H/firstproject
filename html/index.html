@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Index Page</title>
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+   <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+   
+    
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+  <!--jQuery 소스삽입  cdnjs 플러그인 사용 -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+  <!--jQuery-ui 소스삽입 (aniamtion 기능, 다양한 ui component)  cdnjs 플러그인 사용 -->
+  <script type="text/javascript" src="../jquery/index.js"></script>
+  
+</head>
+
+
+
+<body>
+   
+    
+   <ul id="skip_menu">
+       <li><a href="#" title="header">header</a></li>
+       <li><a href="#" title="visual">visual</a></li>
+       <li><a href="#" title="content">content</a></li>
+       <li><a href="#" title="footer">footer</a></li>
+   </ul>
+   <!--skipmenu-->
+   <header id="header_wrap">
+       <div id="htop_wrap">
+           <div id="htop_inner" class="clearfix">
+               <ul id="htop_menu" class="clearfix">
+                   <li><div class="tmenu"><a href="#" title="로그인">로그인</a></div></li>
+                   <li><div class="tmenu"><a href="#" title="회원가입">회원가입</a></div></li>
+                   <li class="mypage_list">
+                       <div class="tmenu"><a href="#" title="마이페이지">마이페이지</a></div>
+                       <div class="mypage_menu">
+                           <ul>
+                               <li><a href="#" title="구매확인/취소">구매확인/취소</a></li>
+                               <li><a href="#" title="구매확인/취소">폰비교하기</a></li>
+                               <li><a href="#" title="구매확인/취소">장바구니</a></li>
+                               <li><a href="#" title="구매확인/취소">개인정보</a></li>
+                           </ul>
+                       </div>
+                   </li>
+                   <li class="search"><a href="#" title="search"><img src="../icon/search.png"></a></li>
+               </ul>
+                <div id="mypage_bg"></div><!--mypage-->
+           </div><!--htop_inner-->
+       </div><!--htop_wrap-->
+       <div id="hbottom_wrap">
+           <div id="hbottom_inner">
+               <nav id="gnb">
+                   <ul id="gnb_list">
+                       <li>
+                           <div class="gnb_title"><a href="#" title="회사소개">회사소개</a></div>
+                           <div class="submenu">
+                    <ul class="submenu_list">
+                        <li><a href="#" title="회사소개">회사소개</a></li>
+                        <li><a href="#" title="공지사항">공지사항</a></li>
+                    </ul>
+                           </div><!--submenu-->
+
+                       </li>
+                       <li>
+                           <div class="gnb_title"><a href="submiddle.html" title="모바일">모바일</a></div>
+                           <div class="submenu">
+                                  <ul class="submenu_list">
+                                   <li><a href="#" title="신상품">신상품</a></li>
+                                   <li><a href="#" title="삼성">삼성</a></li>
+                                    <li><a href="#" title="애플">애플</a></li>
+                                   <li><a href="#" title="엘지">엘지</a></li>
+                                   <li><a href="#" title="샤오미">샤오미</a></li>
+                                   <li><a href="#" title="노키아">노키아</a></li>
+                                    <li><a href="#" title="소니">소니</a></li>
+                               </ul>
+                           </div><!--submenu-->
+
+                       </li>
+                       <li>
+                           <div class="gnb_title"><a href="#" title="액세서리">액세서리</a></div>
+                           <div class="submenu">
+                                 <ul class="submenu_list">
+                                   <li><a href="#" title="스마트와치">스마트와치</a></li>
+                                   <li><a href="#" title="폰케이스">폰케이스</a></li>
+                                    <li><a href="#" title="무선이어폰">무선이어폰</a></li>
+                                   <li><a href="#" title="더보기">더보기</a></li>
+                               </ul>
+                           </div><!--submenu-->
+
+
+                       </li>
+                       <li>
+                           <div class="gnb_title"><a href="#" title="이벤트">이벤트</a></div>
+                           <div class="submenu">
+                               <ul class="submenu_list">
+                                   <li><a href="#" title="진행중">진행중</a></li>
+                                   <li><a href="#" title="지난이벤트">지난이벤트</a></li>
+                                    <li><a href="#" title="당첨자발표">당첨자발표</a></li>
+                               </ul>
+                           </div><!--submenu-->
+
+                       </li>
+                       <li>
+                           <div class="gnb_title"><a href="#" title="고객지원">고객지원</a></div>
+                           <div class="submenu">
+                               <ul class="submenu_list">
+                                   <li><a href="#" title="FAQ">FAQ</a></li>
+                                   <li><a href="#" title="이메일상담">이메일상담</a></li>
+                                    <li><a href="#" title="메신저상담">메신저상담</a></li>
+                                     <li><a href="#" title="서비스센터찾기">서비스센터찾기</a></li>
+                                    <li><a href="#" title="멤버스커뮤니티">멤버스커뮤니티</a></li>
+                               </ul>  
+                           </div><!--submenu-->
+
+                       </li>
+                       <li><div class="gnb_title"><a href="#" title="사전예약">사전예약</a></div></li>
+                       <li><div class="gnb_title"><a class="trending_now" href="#" title="트랜딩나우">Trending Now</a></div></li>
+                   </ul><!--gnb_list-->
+
+               </nav>
+              
+               </div><!--hbottom_inner-->
+                 </div><!--hbottom_wrap-->
+                
+                 <div id="nav_bg"></div><!--nav_bg-->
+                  <div id="sub_bg"></div><!--sub_bg-->
+
+   </header>
+        
+         
+        <div class="bg_01">
+            <div class="bg_inner">
+        <section id="visual_wrap">
+                  <div id="visual_inner">
+                       <ul id="img_list" class="clearfix">
+                           <li><a href="../html/productpage.html" title="visual 1"></a></li>
+                           <li><a href="../html/productpage.html" title="visual 2"></a></li>
+                       </ul>
+                       <ul id="btn">
+                        <li><a href="#" title="first_btn"></a></li>
+                        <li><a href="#" title="second_btn"></a></li>
+                       </ul>
+                       
+                        <div class="stop_btn"><a href="#" title="stop_btn"></a></div>
+                      
+                   </div><!--visual_inner-->
+               </section><!--visual_wrap-->
+               <!--visual-->
+        
+        <div id="trending_now_wrap">
+            <div id="tr_inner">
+               <h2>Trending Now</h2>
+               <div id="tr_slide">
+               <div id="tr_slide_inner" class="clearfix">
+                <ul id="tr_column_01" class="tr_column clearfix">
+                    <li><a href="../html/productpage.html" title="10s">10대를 위한 폰</a></li>
+                    <li><a href="../html/productpage.html" title="20s">20대를 위한 폰</a></li>
+                 </ul>
+                   <ul id="tr_column_02" class="tr_column clearfix">
+                    <li><a href="../html/productpage.html" title="30s">30대를 위한 폰</a></li>
+                    <li><a href="../html/productpage.html" title="40s">40대를 위한 폰</a></li> 
+                   </ul>
+                   <ul id="tr_column_03" class="tr_column clearfix">
+                        <li><a href="#" title="50above">50대 이상을 위한 폰</a></li>
+                   </ul>
+                       </div><!--tr_slide_inner-->
+                   </div><!--tr_slide-->
+               
+            </div><!--tr_inner-->
+            <div class="next_btn"><a href="#" title="next" onclick="return false;">
+                <img src="../icon/whitearrow.png" alt="next button">
+            </a></div>
+            <div class="prev_btn"><a href="#" title="prev" onclick="return false;">
+                <img src="../icon/whitearrow.png" alt="pev button">
+            </a></div>
+        </div><!--trending_now-->
+            <div id="pop_up">
+                <div id="pop_up_img" class="clearfix">
+                    <ul class="clearfix">
+                        <li>
+                            <img src="../images/popup/images/popup01_03.png" alt="pop img">
+                        </li>
+                        <li>
+                            <img src="../images/popup/images/images/popup02_03.png" alt="pop img">
+                        </li>
+                        <li>
+                            <img src="../images/popup/images/popup01_03.png" alt="pop img">
+                        </li>
+                        <li>
+                            <img src="../images/popup/images/images/popup02_03.png" alt="pop img">
+                        </li>
+                        <li>
+                            <img src="../images/popup/images/popup01_03.png" alt="pop img">
+                        </li>
+                        <li>
+                            <img src="../images/popup/images/images/popup02_03.png" alt="pop img">
+                        </li>
+                        
+                    </ul>
+                </div><!--pop_up_img-->
+                <div id="pop_up_btn">
+                    <ul class="clearfix">
+                        <li>
+                            <a href="#" title="first step">
+                                <img src="../images/popup/images/images/bt01.png" alt="btn01">
+                            </a>            
+                        </li>
+                        <li>
+                            <a href="#" title="first step">
+                                <img src="../images/popup/images/images/bt02.png" alt="btn02">
+                            </a>            
+                        </li>
+                        <li>
+                            <a href="#" title="first step">
+                                <img src="../images/popup/images/images/bt03.png" alt="btn01">
+                            </a>            
+                        </li>
+                        <li>
+                            <a href="#" title="first step">
+                                <img src="../images/popup/images/images/bt04.png" alt="btn02">
+                            </a>            
+                        </li>
+                        <li>
+                            <a href="#" title="first step">
+                                <img src="../images/popup/images/images/bt05.png" alt="btn01">
+                            </a>            
+                        </li>
+                        <li>
+                            <a href="#" title="first step">
+                                <img src="../images/popup/images/images/bt06.png" alt="btn02">
+                            </a>            
+                        </li>
+                        
+                    </ul>
+                </div><!--pop_up_btn-->
+                <div class="pop_close">
+                    <a href="#" title="close">
+                        <img src="../icon/close.png" alt="close">
+                    </a>
+                </div>
+            </div><!--pop_up-->
+            </div><!--bg_inner-->
+        </div><!--bg_01-->
+        
+        <section id="content_body"> 
+        <div id="new_wrap">
+            <div id="new_inner">
+                <h2>신상품 보기</h2>
+                <ul class="clearfix">
+                    <li id="new_01" class="new_item"><a href="#" title="new item01"><img src="../images/galaxycollection/A20smain_black_04.png" alt="samsung"><h2>SAMSUNG</h2>
+                    </a><div class="new_hover" id="new_samsung_hover"><h2>갤럭시Ulta20</h2><h3>폰의 미래를 새롭게</h3><div class="hover_btn"><a href="../html/productpage.html" title="바로가기">바로가기</a></div></div></li>
+                     <li id="new_02" class="new_item"><a href="#" title="new item01"><img src="../images/iphone/images/11main_06.png" alt="iphone"><h2>APPLE</h2>
+                     </a><div class="new_hover" id="new_iphone_hover"><h2>iPhone11</h2><h3>더할나위 없이 완벽한 조화</h3>
+                     <div class="hover_btn"><a href="../html/productpage.html" title="바로가기">바로가기</a></div></div></li>
+                      <li id="new_03" class="new_item"><a href="#" title="new item01"><img src="../images/LG/images/velvetmain_sunset_05.png" alt="lg"><h3>LG</h3>
+                      </a><div class="new_hover" id="new_lg_hover"><h2>LG Velvet</h2><h3>색.다른 시작</h3>
+                      <div class="hover_btn"><a href="../html/productpage.html" title="바로가기">바로가기</a></div></div></li>
+                </ul>
+              
+            </div><!--new_inner-->
+            <div id="ad_video_inner">
+                <video autoplay muted loop controls>
+                    <source src="../video/Meet iPhone 12 — Apple.mp4" id="my_video" type="video/mp4">
+                </video> 
+               
+                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/cnXapYkboRQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            </div><!--ad_video_inner-->
+        </div><!--new_wrap-->
+        
+           
+       <div class="bg_last">
+        <div id="featured_wrap">
+            <div id="featured_inner">
+               <h2>인기제품</h2>
+               <div id="ft_slide">
+               <div id="ft_slide_inner" class="clearfix">
+               
+                <ul class="ft_column clearfix">
+                    <li class="new_item featured_01"><a href="#" title="SAMSUNG"><img src="../images/galaxycollection/images/A20smain_red_06.png" alt="Galaxy A20"><h3>SAMSUNG</h3></a></li>
+                     <li class="new_item featured_02"><a href="#" title="APPLE"><img src="../images/iphone/images/11main_green_06.png" alt="Iphone11"><h3>APPLE</h3></a></li>
+                      <li class="new_item featured_03"><a href="#" title="LG"><img src="../images/LG/images/velvetmain_green_05.png" alt="LG Velvet"><h3>LG</h3></a></li>
+                </ul>
+                  <ul class="ft_column clearfix">
+                       <li class="new_item featured_02"><a href="#" title="APPLE"><img src="../images/iphone/images/11main_green_06.png" alt="Iphone11"><h3>APPLE</h3></a></li>
+                     <li class="new_item featured_03" ><a href="#" title="LG"><img src="../images/LG/images/velvetmain_sunset_05.png" alt="LG Velvet"><h3>LG</h3></a></li>
+                    <li class="new_item featured_01"><a href="#" title="SAMSUNG"><img src="../images/galaxycollection/images/A20smain_red_06.png" alt="Galaxy A20"><h3>SAMSUNG</h3></a></li>
+                  </ul>
+                   <ul class="ft_column clearfix">
+                      <li class="new_item featured_03"><a href="#" title="LG"><img src="../images/LG/images/velvetmain_green_05.png" alt="LG Velvet"><h3>LG</h3></a></li>
+                      <li class="new_item featured_01"><a href="#" title="SAMSUNG"><img src="../images/galaxycollection/images/A20smain_red_06.png" alt="Galaxy A20"><h3>SAMSUNG</h3></a></li>
+                        <li class="new_item featured_02"><a href="#" title="APPLE"><img src="../images/iphone/images/11main_06.png" alt="Iphone11"><h3>APPLE</h3></a></li>
+                  </ul>
+                  </div><!--slide_inner-->
+                   </div><!--slide-->
+            </div><!--featured_inner-->
+             <div class="next_btn"><a href="#" title="next" onclick="ftPicRotate(this); return false;">
+                <img src="../icon/whitearrow.png" alt="next button">
+            </a></div>
+            <div class="prev_btn"><a href="#" title="prev" onclick="ftPicRotate(this); return false;">
+                <img src="../icon/whitearrow.png" alt="pev button">
+            </a></div>
+        </div><!--featured_wrap-->
+        <div id="accessory_wrap">
+            <div id="accessory_inner">
+               <h2>악세서리</h2>
+               <div id="acc_slide">
+               <div id="acc_slide_inner" class="clearfix">
+               
+                <ul class="acc_column clearfix">
+                    <li class="new_item accessory_01"><a href="#" title="SAMSUNG"><img src="../images/accessory/batterypack_03.png" alt="Samsung Battery Pack"><h3>갤럭시 노트20 Ultra 5G 스마트 LED 뷰 커버(항균 코팅)</h3></a></li>
+                     <li class="new_item accessory_02"><a href="#" title="SAMSUNG"><img src="../images/accessory/galaxywatch_04.png" alt="Galaxy Watch 20"><h3>갤럭시 워치3 41 mm (블루투스)</h3></a></li>
+                      <li class="new_item accessory_03"><a href="#" title="SAMSUNG"><img src="../images/accessory/fit_03.png" alt="Galaxy Fit"><h3>갤럭시 핏2</h3></a></li>
+                </ul>
+                <ul class="acc_column clearfix">
+                      <li class="new_item accessory_03"><a href="#" title="SAMSUNG"><img src="../images/accessory/fit_03.png" alt="Galaxy Fit"><h3>갤럭시 핏2</h3></a></li>
+                   <li class="new_item accessory_01"><a href="#" title="SAMSUNG"><img src="../images/accessory/batterypack_03.png" alt="Samsung Battery Pack"><h3>갤럭시 노트20 Ultra 5G 스마트 LED 뷰 커버(항균 코팅)</h3></a></li>
+                      <li class="new_item accessory_02"><a href="#" title="SAMSUNG"><img src="../images/accessory/galaxywatch_04.png" alt="Galaxy Watch 20"><h3>갤럭시 워치3 41 mm (블루투스)</h3></a></li>
+                </ul>
+                     <ul class="acc_column clearfix">
+                        <li class="new_item accessory_02" ><a href="#" title="SAMSUNG"><img src="../images/accessory/galaxywatch_04.png" alt="Galaxy Watch 20"><h3>갤럭시 워치3 41 mm (블루투스)</h3></a></li>
+                  <li class="new_item accessory_03"><a href="#" title="SAMSUNG"><img src="../images/accessory/fit_03.png" alt="Galaxy Fit"><h3>갤럭시 핏2</h3></a></li>
+                      <li class="new_item accessory_01"><a href="#" title="SAMSUNG"><img src="../images/accessory/batterypack_03.png" alt="Samsung Battery Pack"><h3>갤럭시 노트20 Ultra 5G 스마트 LED 뷰 커버(항균 코팅)</h3></a></li>
+                </ul>
+                   </div><!--slide_inner-->
+               </div><!--slide-->
+            </div><!--accessory_inner-->
+             <div class="next_btn"><a href="#" title="next" onclick="accPicRotate(this); return false;">
+                <img src="../icon/whitearrow.png" alt="next button">
+            </a></div>
+            <div class="prev_btn"><a href="#" title="prev" onclick="accPicRotate(this); return false;">
+                <img src="../icon/whitearrow.png" alt="pev button">
+            </a></div>
+        </div><!--accessory_wrap-->
+        </div><!--bg_last-->
+         
+        <div id="featured_hover_bg"></div>
+        <div id="featured_hover_content" class="clearfix">
+           <div id="featured_hover_content_inner">
+            <div id="hovered_left">
+                <div id="hovered_item_big">
+                    <a href="" title="item image">
+                        <img src="">
+                    </a>
+                </div><!--hovered_item_big-->
+                <p class="product_at">Product @ <span>SAMSUNG</span></p>
+            </div><!--hovered_left-->
+            <div id="hovered_right">
+                <div id="hovered_item_small">
+                    <a href="" title="item image">
+                        <img src="">
+                    </a>
+                </div><!--hovered_item_small-->
+                <h3 class="hovered_item_name">
+               갤럭시 Ultra20</h3>
+               <div id="pick_color">
+                <ul class="hovered_color clearfix">
+                    <li><a href="#" title="color"></a></li>
+                    <li><a href="#" title="color"></a></li>
+                    <li><a href="#" title="color"></a></li>
+                </ul>
+                </div><!--pick_color-->
+                <div id="hovered_storage">
+                    <p>64GB/120GB/240GB</p>
+                </div><!--hovered_storage-->
+                <div class="view_detail">
+                    <a href="../html/productpage.html" title="자세히 보기btn">
+                        자세히보기
+                    </a>
+                </div><!--view_detail-->
+            </div><!--hovered_right-->
+            <div class="close_btn">
+                <a href="" title="close_button">
+                    <img src="../icon/close.png" title="close button">
+                </a>
+            </div>
+            </div><!--featured_hover_content_inner-->
+        </div><!--featured_hover_content-->
+        </section><!--content_body--> 
+        <aside id="menu_aside">
+            <div id="item_seen">최근 본 상품</div><!--item_seen-->
+            <ul>
+                <li>
+                <div class="aside_item" id="aside_01"><a href="../html/productpage.html" title="item01">
+                    <img src="">
+                </a></div>
+                <p>상품명</p>
+                </li>
+                <li>
+                <div class="aside_item" id="aside_02"><a href="#" title="item01">
+                    <img src="">
+                </a></div>
+                <p>상품명</p>
+                </li>
+            </ul>
+            <div class="top_btn"><a href="#" title="top_btn" onclick="toTop()";><p>TOP</p></a></div>
+        </aside><!--menu_alise-->  
+        <footer id="footer_wrap">
+            <div id="ftop_wrap">
+               <div id="ftop_inner" class="clearfix">
+                <div id="ftop_left">
+                   <ul id="footer_menu" class="clearfix">
+                       <li>
+                           <p><a href="#" title="footer_menu_title">ABOUT US</a></p>
+                           <ul class="footer_submenu">
+                               <li><a href="#" title="about us">ABOUT US</a></li>
+                                <li><a href="#" title="about us">공지사항</a></li>
+                           </ul>
+                       </li>
+                        <li>
+                           <p><a href="#" title="footer_menu_title">고객센터</a></p>
+                            <ul class="footer_submenu">
+                                <li><a href="#" title="about us">배송정책</a></li>
+                                 <li><a href="#" title="about us">멤버쉽 혜택/서비스</a></li>
+                                  <li><a href="#" title="about us">1:1 채팅문의</a></li>
+                                   <li><a href="#" title="about us">1:1 이메일문의</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer_submenu"><p><a href="#" title="footer_menu_title">매장안내</a></p></li>
+                   </ul>
+                </div><!--ftop_left-->
+                <div id="ftop_right" class="clearfix">
+                    <p class="cs">CUSTOMER SERVICE<br>
+                    000-0000-0000
+                    </p>
+                    <p class="store_hours">
+                       매장영업시간 10:00-19:00 
+                    </p>
+                    <p class="item_hours">
+                       제품관련문의 09:30-17:30 
+                    </p>
+                    <p class="as_hours">
+                       배송A/S문의 09:30-17:30 
+                    </p>
+                    <div class="sns">
+                        <ul class="clearfix">
+                            <li><a href="#" title="insta"></a></li>
+                            <li><a href="#" title="fb"></a></li>
+                            <li><a href="#" title="twitter"></a></li>
+                            <li><a href="#" title="youtube"></a></li>
+                        </ul>
+                    </div>
+                </div><!--ftop_right-->
+                </div><!--ftop_inner-->
+            </div><!--ftop_wrap-->
+            <div id="fbottom_wrap">
+               <div id="fbottom_inner">
+                <ul id="fbottom_top" class="clearfix">
+                    <li>개인정보 처리방침</li>
+                    <li>웹 사이트 이용 약관</li>
+                    <li>판매 및 환불</li>
+                    <li>법적 고지</li>
+                    <li>사이트 맵</li>
+                </ul><!--fbottom_top-->
+                <ul id="fbottom_02" class="clearfix">
+                    <li>사업자등록번호:000-00-12345</li>
+                    <li>통신판매입신고번호:제 2011-강남-000000호</li>
+                </ul><!--fbottom_02-->
+                <ul id="address" class="clearfix">
+                    <li>주소:서울 특별시 강남구 영동대로</li>
+                    <li>대표전화:02-1234-5678</li>
+                    <li>팩스:02-1234-5678</li>
+                    
+                </ul><!--address-->
+                <span class="copy">Copyright©2020 Mobile Inc.</span>
+                </div><!--fbottom_inner-->
+            </div><!--fbottom_wrap-->
+        </footer>
+     
+    
+</body>
+</html>
